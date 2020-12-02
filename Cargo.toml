@@ -1,0 +1,10 @@
+[package]
+authors = ["Systemcluster <me@systemcluster.me>"]
+edition = "2018"
+name = "wgpu-bug-crash-on-resize"
+version = "0.1.0"
+
+[dependencies]
+futures = {version = "^0.3", default-features = false, features = ["std", "executor"]}
+wgpu = {git = "https://github.com/gfx-rs/wgpu-rs", branch = "master"}
+winit = {version = "^0.23"}
