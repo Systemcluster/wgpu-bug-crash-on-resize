@@ -73,10 +73,20 @@ impl Renderer {
 }
 
 fn main() {
+    pretty_env_logger::formatted_timed_builder()
+        .filter_level(
+            std::env::var("LOG_LEVEL")
+                .ok()
+                .and_then(|v| str::parse(&v).ok())
+                .unwrap_or(log::LevelFilter::Warn),
+        )
+        .filter_module("fortunegen", log::LevelFilter::Trace)
+        .init();
+
     let eventloop = EventLoop::new();
     let window = create_window(&eventloop);
 
-    let backend = BackendBit::DX12;
+    let backend = BackendBit::VULKAN;
     let instance = Instance::new(backend);
     let surface = unsafe { instance.create_surface(&window) };
     let adapter_options = RequestAdapterOptions {

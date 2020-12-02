@@ -6,5 +6,7 @@ version = "0.1.0"
 
 [dependencies]
 futures = {version = "^0.3", default-features = false, features = ["std", "executor"]}
+log = "0.4.11"
+pretty_env_logger = {version = "^0.4"}
 wgpu = {git = "https://github.com/gfx-rs/wgpu-rs", branch = "master"}
 winit = {version = "^0.23"}
