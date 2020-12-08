@@ -1,0 +1,1123 @@
+[
+Init(
+    desc: (
+        label: None,
+        features: (
+            bits: 8388608,
+        ),
+        limits: (
+            max_bind_groups: 4,
+            max_dynamic_uniform_buffers_per_pipeline_layout: 8,
+            max_dynamic_storage_buffers_per_pipeline_layout: 4,
+            max_sampled_textures_per_shader_stage: 16,
+            max_samplers_per_shader_stage: 16,
+            max_storage_buffers_per_shader_stage: 4,
+            max_storage_textures_per_shader_stage: 4,
+            max_uniform_buffers_per_shader_stage: 12,
+            max_uniform_buffer_binding_size: 16384,
+            max_push_constant_size: 128,
+        ),
+        shader_validation: true,
+    ),
+    backend: Vulkan,
+),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1024,
+    height: 1025,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 1, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1030,
+    height: 1028,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 2, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1036,
+    height: 1033,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 3, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1041,
+    height: 1035,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 4, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1043,
+    height: 1037,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 5, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1049,
+    height: 1040,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 6, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1053,
+    height: 1042,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 7, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1057,
+    height: 1045,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 8, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1059,
+    height: 1045,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 9, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+CreateSwapChain(Id(0, 1, Vulkan), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1060,
+    height: 1046,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 10, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 11, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 12, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 13, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 14, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 15, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 16, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 17, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 18, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 19, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 20, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 21, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 22, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 23, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 24, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 25, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 26, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 27, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 28, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 29, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 30, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 31, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 32, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 33, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 34, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 35, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 36, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 37, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 38, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 39, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 40, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 41, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 42, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 43, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 44, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 45, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 46, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 47, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 48, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 49, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 50, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 51, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 52, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 53, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 54, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 55, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 56, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 57, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 58, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 59, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 60, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 61, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 62, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 63, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 64, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 65, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 66, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 67, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 68, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 69, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 70, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 71, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 72, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 73, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 74, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 75, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 76, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 77, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 78, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 79, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 80, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 81, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 82, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 83, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 84, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 85, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 86, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 87, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 88, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 89, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 90, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 91, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 92, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 93, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 94, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 95, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 96, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 97, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 98, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 99, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 100, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 101, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 102, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 103, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 104, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 105, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 106, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 107, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 108, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 109, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 110, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 111, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 112, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 113, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 114, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 115, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 116, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 117, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 118, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 119, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 120, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 121, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 122, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 123, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 124, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 125, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 126, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 127, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 128, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 129, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 130, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 131, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 132, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 133, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 134, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 135, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 136, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 137, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 138, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 139, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 140, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 141, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 142, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 143, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 144, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 145, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 146, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 147, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 148, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 149, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 150, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 151, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 152, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 153, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 154, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 155, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 156, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 157, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 158, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 159, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 160, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 161, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 162, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 163, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 164, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 165, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 166, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 167, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 168, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 169, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 170, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 171, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 172, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 173, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 174, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 175, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 176, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 177, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 178, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 179, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 180, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 181, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 182, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 183, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 184, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 185, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 186, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 187, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 188, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 189, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 190, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 191, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 192, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 193, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 194, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 195, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 196, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 197, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 198, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 199, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 200, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 201, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),
+GetSwapChainTexture(
+    id: Some(Id(0, 202, Vulkan)),
+    parent_id: Id(0, 1, Vulkan),
+),
+PresentSwapChain(Id(0, 1, Vulkan)),

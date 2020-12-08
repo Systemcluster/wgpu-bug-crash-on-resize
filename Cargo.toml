@@ -6,7 +6,8 @@ version = "0.1.0"
 
 [dependencies]
 futures = {version = "^0.3", default-features = false, features = ["std", "executor"]}
-log = "0.4.11"
-pretty_env_logger = {version = "^0.4"}
-wgpu = {git = "https://github.com/gfx-rs/wgpu-rs", branch = "master"}
+tracing = {version = "0.1"}
+tracing-log = {version = "0.1"}
+tracing-subscriber = {version = "0.2"}
+wgpu = {git = "https://github.com/gfx-rs/wgpu-rs", branch = "master", features = ["trace"]}
 winit = {version = "^0.23"}

@@ -1,4 +1,7 @@
 use futures::executor::block_on;
+use tracing::metadata::LevelFilter;
+use tracing_log::LogTracer;
+use tracing_subscriber::EnvFilter;
 use wgpu::{
     BackendBit, Device, DeviceDescriptor, Features, Instance, Limits, PowerPreference, PresentMode,
     Queue, RequestAdapterOptions, Surface, SwapChain, SwapChainDescriptor, SwapChainError,
@@ -68,25 +71,21 @@ impl Renderer {
                 present_mode: PresentMode::Mailbox,
             },
         ));
-        println!("swapchain created with w: {} h: {}", width, height);
     }
 }
 
 fn main() {
-    pretty_env_logger::formatted_timed_builder()
-        .filter_level(
-            std::env::var("LOG_LEVEL")
-                .ok()
-                .and_then(|v| str::parse(&v).ok())
-                .unwrap_or(log::LevelFilter::Warn),
-        )
-        .filter_module("fortunegen", log::LevelFilter::Trace)
-        .init();
+    LogTracer::init().unwrap();
+    let collector = tracing_subscriber::fmt()
+        .with_env_filter(EnvFilter::default().add_directive(LevelFilter::WARN.into()))
+        .compact()
+        .finish();
+    tracing::subscriber::set_global_default(collector).unwrap();
 
     let eventloop = EventLoop::new();
     let window = create_window(&eventloop);
 
-    let backend = BackendBit::VULKAN;
+    let backend = BackendBit::DX11;
     let instance = Instance::new(backend);
     let surface = unsafe { instance.create_surface(&window) };
     let adapter_options = RequestAdapterOptions {
@@ -105,7 +104,10 @@ fn main() {
         shader_validation: true,
         label: None,
     };
-    let (device, queue) = block_on(adapter.request_device(&device_descriptor, None)).unwrap();
+    let (device, queue) = block_on(
+        adapter.request_device(&device_descriptor, Some(&std::path::Path::new("./trace"))),
+    )
+    .unwrap();
 
     window.set_visible(true);
 

@@ -1,0 +1,2084 @@
+[
+Init(
+    desc: (
+        label: None,
+        features: (
+            bits: 8388608,
+        ),
+        limits: (
+            max_bind_groups: 4,
+            max_dynamic_uniform_buffers_per_pipeline_layout: 8,
+            max_dynamic_storage_buffers_per_pipeline_layout: 4,
+            max_sampled_textures_per_shader_stage: 16,
+            max_samplers_per_shader_stage: 16,
+            max_storage_buffers_per_shader_stage: 4,
+            max_storage_textures_per_shader_stage: 4,
+            max_uniform_buffers_per_shader_stage: 12,
+            max_uniform_buffer_binding_size: 16384,
+            max_push_constant_size: 128,
+        ),
+        shader_validation: true,
+    ),
+    backend: Dx12,
+),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1025,
+    height: 1024,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 1, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1027,
+    height: 1026,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 2, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1034,
+    height: 1040,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 3, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1041,
+    height: 1051,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 4, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 5, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1050,
+    height: 1064,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 6, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1053,
+    height: 1066,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 7, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1056,
+    height: 1069,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 8, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1061,
+    height: 1072,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 9, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1065,
+    height: 1075,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 10, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1068,
+    height: 1078,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 11, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1069,
+    height: 1078,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 12, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1070,
+    height: 1079,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 13, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1071,
+    height: 1079,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 14, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 15, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 16, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 17, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 18, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 19, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 20, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 21, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 22, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 23, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 24, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 25, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 26, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 27, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 28, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 29, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 30, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 31, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 32, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 33, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 34, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 35, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 36, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 37, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 38, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 39, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 40, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 41, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 42, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 43, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 44, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 45, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 46, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 47, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 48, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 49, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 50, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 51, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 52, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 53, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 54, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 55, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 56, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 57, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 58, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 59, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 60, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 61, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 62, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 63, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 64, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 65, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 66, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 67, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 68, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 69, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 70, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 71, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 72, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 73, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 74, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 75, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 76, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 77, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 78, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 79, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 80, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 81, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 82, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 83, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 84, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 85, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 86, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 87, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 88, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 89, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 90, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 91, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 92, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 93, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 94, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 95, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 96, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 97, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 98, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 99, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 100, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 101, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 102, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 103, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 104, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 105, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 106, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 107, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 108, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 109, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 110, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 111, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 112, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 113, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 114, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 115, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 116, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 117, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 118, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 119, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 120, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 121, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 122, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 123, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 124, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 125, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1067,
+    height: 1074,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 126, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 127, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1053,
+    height: 1062,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 128, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 129, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1034,
+    height: 1041,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 130, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 131, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1024,
+    height: 1024,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 132, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 133, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 134, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 135, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 136, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 137, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 138, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 139, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 140, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 141, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 142, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 143, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 144, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 145, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 146, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 147, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 148, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 149, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 150, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 151, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 152, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 153, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 154, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 155, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 156, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 157, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 158, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 159, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 160, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 161, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 162, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 163, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 164, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 165, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 166, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 167, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 168, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 169, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 170, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 171, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 172, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 173, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 174, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 175, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 176, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 177, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 178, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 179, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 180, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 181, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 182, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 183, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 184, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 185, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 186, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 187, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 188, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 189, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 190, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 191, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 192, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 193, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 194, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 195, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 196, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 197, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 198, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 199, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 200, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 201, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 202, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 203, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 204, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 205, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 206, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 207, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 208, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 209, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 210, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 211, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 212, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 213, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 214, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 215, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 216, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 217, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 218, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 219, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 220, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 221, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 222, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 223, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 224, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 225, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 226, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 227, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 228, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 229, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 230, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 231, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 232, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 233, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 234, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 235, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 236, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 237, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 238, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 239, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 240, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 241, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 242, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 243, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 244, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 245, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 246, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 247, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 248, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 249, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 250, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 251, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 252, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 253, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 254, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 255, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 256, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 257, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 258, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 259, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 260, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 261, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 262, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 263, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 264, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 265, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 266, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 267, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 268, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 269, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 270, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 271, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 272, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 273, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 274, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 275, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 276, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 277, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 278, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 279, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 280, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 281, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 282, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 283, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 284, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 285, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 286, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 287, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 288, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 289, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 290, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 291, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 292, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 293, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 294, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 295, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 296, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 297, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 298, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 299, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 300, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 301, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 302, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 303, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 304, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 305, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 306, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 307, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 308, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 309, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 310, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 311, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 312, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 313, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 314, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 315, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 316, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 317, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1025,
+    height: 1025,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 318, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 319, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1038,
+    height: 1032,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 320, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 321, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1053,
+    height: 1037,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 322, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1072,
+    height: 1043,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 323, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1086,
+    height: 1044,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 324, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1112,
+    height: 1048,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 325, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1165,
+    height: 1059,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 326, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1235,
+    height: 1071,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 327, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1356,
+    height: 1091,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 328, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1409,
+    height: 1093,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 329, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1429,
+    height: 1090,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 330, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 331, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 332, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 333, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1421,
+    height: 1082,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 334, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1404,
+    height: 1071,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 335, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1355,
+    height: 1037,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 336, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1236,
+    height: 1024,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 337, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1082,
+    height: 1024,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 338, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+CreateSwapChain(Id(0, 1, Dx12), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1024,
+    height: 1024,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 339, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 340, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 341, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 342, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 343, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 344, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 345, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 346, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 347, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 348, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 349, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 350, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),
+GetSwapChainTexture(
+    id: Some(Id(0, 351, Dx12)),
+    parent_id: Id(0, 1, Dx12),
+),
+PresentSwapChain(Id(0, 1, Dx12)),

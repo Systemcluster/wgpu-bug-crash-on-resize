@@ -1,0 +1,38 @@
+[
+Init(
+    desc: (
+        label: None,
+        features: (
+            bits: 8388608,
+        ),
+        limits: (
+            max_bind_groups: 4,
+            max_dynamic_uniform_buffers_per_pipeline_layout: 8,
+            max_dynamic_storage_buffers_per_pipeline_layout: 4,
+            max_sampled_textures_per_shader_stage: 16,
+            max_samplers_per_shader_stage: 16,
+            max_storage_buffers_per_shader_stage: 4,
+            max_storage_textures_per_shader_stage: 4,
+            max_uniform_buffers_per_shader_stage: 12,
+            max_uniform_buffer_binding_size: 16384,
+            max_push_constant_size: 128,
+        ),
+        shader_validation: true,
+    ),
+    backend: Dx11,
+),
+CreateSwapChain(Id(0, 1, Dx11), (
+    usage: (
+        bits: 16,
+    ),
+    format: Bgra8Unorm,
+    width: 1024,
+    height: 1025,
+    present_mode: Mailbox,
+)),
+GetSwapChainTexture(
+    id: Some(Id(0, 1, Dx11)),
+    parent_id: Id(0, 1, Dx11),
+),
+PresentSwapChain(Id(0, 1, Dx11)),
+]
