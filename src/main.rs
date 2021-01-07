@@ -101,7 +101,6 @@ fn main() {
     let device_descriptor = DeviceDescriptor {
         limits: device_limits,
         features: device_features,
-        shader_validation: true,
         label: None,
     };
     let (device, queue) = block_on(
